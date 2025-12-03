@@ -23,15 +23,17 @@ Thumbs.db
 *.temp
 *.bak
 
-# Streamlit generated files
-.streamlit/
+# Streamlit folder BUT keep config files
+# DO NOT ignore entire .streamlit folder (breaks cloud)
+# Only ignore secrets.toml because it contains API keys
+.streamlit/secrets.toml
 
-# Environment variables (API keys)
+# Local environment variables
 .env
 
-# Output folders (optional: if you don't want to push generated images or zips)
+# Output folders (optional: if you don't want images/zips in git)
 *.zip
 autocreative_*/
 
-# Jupyter Notebook checkpoints (if any)
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/

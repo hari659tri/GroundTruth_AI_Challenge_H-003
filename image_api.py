@@ -1,11 +1,11 @@
-import os
 import requests
 from io import BytesIO
 from PIL import Image
-from dotenv import load_dotenv
-load_dotenv()
+import streamlit as st   # ✅ Use Streamlit secrets
 
-STABILITY_API_KEY = os.getenv("STABILITY_API_KEY")
+# Load API key from secrets.toml
+STABILITY_API_KEY = st.secrets["STABILITY_API_KEY"]
+
 
 def generate_image_with_stability(prompt, width=1024, height=1024, model_name="sd3"):
     """
@@ -13,7 +13,7 @@ def generate_image_with_stability(prompt, width=1024, height=1024, model_name="s
     """
 
     if not STABILITY_API_KEY:
-        raise Exception("Missing STABILITY_API_KEY")
+        raise Exception("Missing STABILITY_API_KEY in secrets.toml")
 
     # Map model names to real endpoints
     endpoints = {
