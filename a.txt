@@ -1,0 +1,7 @@
+python -m venv venv
+venv\Scripts\activate
+to exit-->deactivate
+to run--> streamlit run app.py
+ st.error("Please enter a prompt to generate an image")
+#to install all the dependencues of the project used--> pip install -r requirements.txt
+

@@ -1,0 +1,37 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Streamlit generated files
+.streamlit/
+
+# Environment variables (API keys)
+.env
+
+# Output folders (optional: if you don't want to push generated images or zips)
+*.zip
+autocreative_*/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
