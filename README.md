@@ -19,7 +19,8 @@ Flexible API: Stability AI provides a REST API, which allows generating images i
   <p><strong>Tech stack:</strong> Python • Streamlit • Pillow • Requests • Stability AI Image API • OpenAI (optional captions)</p>
 </div>
 
-🔗 [StabilityAI API Key Testing](https://colab.research.google.com/drive/1RPxCZBJwzShAocupXbgWRjfewA5eYQfx?usp=sharing)
+🔗 [StabilityAI API Key Testing](https://colab.research.google.com/drive/1RPxCZBJwzShAocupXbgWRjfewA5eYQfx?usp=sharing) <br>
+🔗 [Demo](https://youtu.be/pOG89b-GmEM)
 
 ## 📸 Screenshot
 
