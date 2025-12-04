@@ -19,6 +19,20 @@ Flexible API: Stability AI provides a REST API, which allows generating images i
   <p><strong>Tech stack:</strong> Python • Streamlit • Pillow • Requests • Stability AI Image API • OpenAI (optional captions)</p>
 </div>
 
+🔗 [StabilityAI API Key Testing](https://colab.research.google.com/drive/1RPxCZBJwzShAocupXbgWRjfewA5eYQfx?usp=sharing)
+
+## 📸 Screenshot
+
+<img width="1359" height="732" alt="Screenshot 2025-12-04 033109" src="https://github.com/user-attachments/assets/5bcf5a88-9d21-4b4d-ae09-d60ccb8cf14e" />
+
+<img width="1366" height="768" alt="Screenshot 2025-12-03 234155" src="https://github.com/user-attachments/assets/53b90525-b101-4699-8c4d-9d79a255fef1" />
+
+<img width="1366" height="768" alt="Screenshot 2025-12-03 234640" src="https://github.com/user-attachments/assets/4c9bb9e7-930e-4f16-a2bc-e7151b87e6d7" />
+
+<img width="1366" height="768" alt="Screenshot 2025-12-03 121534" src="https://github.com/user-attachments/assets/2b452fbb-ed05-41b0-974f-913b5b5f28b6" />
+
+<img width="1366" height="768" alt="Screenshot 2025-12-03 140317" src="https://github.com/user-attachments/assets/d4d7f975-5e61-4dc6-95c8-556af6116da3" />
+
 <h2>Architecture & Pipeline</h2>
 <pre>
 User (browser)
