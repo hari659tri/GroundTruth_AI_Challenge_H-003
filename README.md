@@ -33,6 +33,8 @@ Flexible API: Stability AI provides a REST API, which allows generating images i
 
 <img width="1366" height="768" alt="Screenshot 2025-12-03 140317" src="https://github.com/user-attachments/assets/d4d7f975-5e61-4dc6-95c8-556af6116da3" />
 
+<img width="796" height="484" alt="Screenshot 2025-12-04 115844" src="https://github.com/user-attachments/assets/8a9ceb52-87f2-4c7f-a5d5-b9d020784e38" />
+
 <h2>Architecture & Pipeline</h2>
 <pre>
 User (browser)
